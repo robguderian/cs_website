@@ -1,0 +1,28 @@
+.robg-component {
+  border: 1px dashed #f00;
+}
+
+.user {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* me in a circle */
+.one {
+  background-image: url('/~robg/images/me_square.png');
+}
+
+.content {
+  margin-left: 220px; 
+}
+
+.tableBorder {
+  margin-left:30px;
+  width: 80%;
+}
