@@ -39,20 +39,13 @@ class About extends Component {
                     </Table.Header>
 
                     <Table.Body>
-                    <Table.Row>
-                        <Table.Cell>10:00-11:00</Table.Cell>
-                        <Table.Cell>1:30-3</Table.Cell>
-                        <Table.Cell>10:00-11:00</Table.Cell>
-                        <Table.Cell>1:30-3</Table.Cell>
-                        <Table.Cell>10:00-11:00</Table.Cell>
-                    </Table.Row>
-                    <Table.Row>
-                        <Table.Cell>1:30-2:30</Table.Cell>
-                        <Table.Cell />
-                        <Table.Cell />
-                        <Table.Cell />
-                        <Table.Cell />
-                    </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>9:00-10:00</Table.Cell>
+                            <Table.Cell>10:00-11:00</Table.Cell>
+                            <Table.Cell>9:00-10:00</Table.Cell>
+                            <Table.Cell></Table.Cell>
+                            <Table.Cell>9:00-10:00</Table.Cell>
+                        </Table.Row>
                     </Table.Body>
                 </Table>
                 <h2>Education</h2>

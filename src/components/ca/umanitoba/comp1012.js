@@ -7,7 +7,7 @@ class Comp1012 extends Component {
         return(
             <div>
                 <umanImage />
-            <p>The COMP 1012 main page can be found at http://cs.umanitoba.ca/~comp1012/</p>
+            <p>The COMP 1012 main page can be found at <a href="http://cs.umanitoba.ca/~comp1012/">http://cs.umanitoba.ca/~comp1012/</a></p>
             </div>
         );
     }
