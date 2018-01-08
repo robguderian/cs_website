@@ -27,6 +27,10 @@ class About extends Component {
                 
 
                 <h2>Office hours</h2>
+                <p>Office hours are times I am guaranteed to be in my office. I am often in my office with the door open
+                outside of these hours, and you are welcome to come and see if I am available.</p>
+                <p>I am also available outside of the office hours by appointment. Email me, or talk to me in class
+                   if you'd like to set up an appointment.</p>
                 <Table className="tableBorder">
                     <Table.Header>
                     <Table.Row>
@@ -41,7 +45,7 @@ class About extends Component {
                     <Table.Body>
                         <Table.Row>
                             <Table.Cell>9:00-10:00</Table.Cell>
-                            <Table.Cell>10:00-11:00</Table.Cell>
+                            <Table.Cell></Table.Cell>
                             <Table.Cell>9:00-10:00</Table.Cell>
                             <Table.Cell></Table.Cell>
                             <Table.Cell>9:00-10:00</Table.Cell>
