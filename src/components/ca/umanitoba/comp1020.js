@@ -15,6 +15,7 @@ class Comp1020 extends Component {
                 iClicker. These pop-quizes will be in most classes.</p>
               <p>Class-specific examples and details will be posted here. ROASS and other material
                   is available at <a href="https://universityofmanitoba.desire2learn.com/">UMLearn.</a></p>
+              <p>Examples <a href="./1020/examples">can be found here</a>.</p>
               <p>Notes from class:</p>
               <Slides folderName="1020" />
             </div>

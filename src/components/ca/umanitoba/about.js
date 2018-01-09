@@ -20,7 +20,7 @@ class About extends Component {
                 <h2>Contact</h2>
                 In order of the best ways to get a hold of me:
                 <ul>
-                    <li>Email: robert.guderian@umanitoba.ca</li>
+                    <li>Email: robg@cs.umanitoba.ca or robert.guderian@umanitoba.ca</li>
                     <li>Office: E2-405</li>
                     <li>Phone: 204-474-7163</li>
                 </ul>
