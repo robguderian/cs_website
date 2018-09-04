@@ -20,7 +20,7 @@ class Slides extends Component {
         // fetch the file list
         // hard-coded because react's default dev environment doesn't
         // like static files. TODO- fix this.
-        fetch('./' + this.props.folderName + '/links.json', {cache: "no-store"})
+        fetch('./' + this.props.folderName + '/links.json', {cache: 'no-store'})
         .then(res => res.json())
         .then(function(linkJson) {
             if (linkJson.links) {
