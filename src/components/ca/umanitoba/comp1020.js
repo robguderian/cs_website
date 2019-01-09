@@ -9,9 +9,9 @@ class Comp1020 extends Component {
         return(
             <div>
                 <img src={umanImage} />
-                <h1>COMP 1020 - Winter 2018</h1>
+                <h1>COMP 1020 - Winter 2019</h1>
                 <p>Teaching COMP 1020, M/W/F 2:30 pm - 3:20pm. Attendance is optional,
-                but 10% of your grade is based on in-class testing done via
+                but part of your grade is based on in-class testing done via
                 iClicker. These pop-quizes will be in most classes.</p>
               <p>Class-specific examples and details will be posted here. ROASS and other material
                   is available at <a href="https://universityofmanitoba.desire2learn.com/">UMLearn.</a></p>

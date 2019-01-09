@@ -44,11 +44,11 @@ class About extends Component {
 
                     <Table.Body>
                         <Table.Row>
-                            <Table.Cell>2:30pm-3:30pm</Table.Cell>
-                            <Table.Cell>10:00am-11:00am</Table.Cell>
-                            <Table.Cell>2:30pm-3:30pm</Table.Cell>
-                            <Table.Cell>10:00am-11:00am</Table.Cell>
+                            <Table.Cell>1-2 pm</Table.Cell>
                             <Table.Cell></Table.Cell>
+                            <Table.Cell>1-2 pm</Table.Cell>
+                            <Table.Cell>Open door</Table.Cell>
+                            <Table.Cell>1-2 pm</Table.Cell>
                         </Table.Row>
                     </Table.Body>
                 </Table>

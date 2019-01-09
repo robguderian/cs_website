@@ -65,6 +65,24 @@ class LeftMenu extends Component {
           Current courses
         </Menu.Header>
         <Menu.Item
+          name='COMP 1020'
+          active={activeItem === '1020_2018'}
+          onClick={this.handleItemClick}
+        >
+         COMP 1020
+        </Menu.Item>
+        <Menu.Item
+          name='COMP 3430'
+          active={activeItem === '3430_2018'}
+          onClick={this.handleItemClick}
+        >
+         COMP 3430
+        </Menu.Item>
+
+        <Menu.Header>
+          Previous courses
+        </Menu.Header>
+        <Menu.Item
           name='COMP 1012'
           active={activeItem === '1012_2018'}
           onClick={this.handleItemClick}
@@ -86,23 +104,6 @@ class LeftMenu extends Component {
           COMP 3380
         </Menu.Item>
 
-        <Menu.Header>
-          Previous courses
-        </Menu.Header>
-        <Menu.Item
-          name='COMP 1020'
-          active={activeItem === '1020_2018'}
-          onClick={this.handleItemClick}
-        >
-         COMP 1020
-        </Menu.Item>
-        <Menu.Item
-          name='COMP 3430'
-          active={activeItem === '3430_2018'}
-          onClick={this.handleItemClick}
-        >
-         COMP 3430
-        </Menu.Item>
       </Menu>
     )
   }
