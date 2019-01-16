@@ -32,7 +32,7 @@ class Slides extends Component {
 
     render() {
 
-        var linksToSlides = this.state.links.map(x => <li key={x}><a href={this.props.folderName + '/' + x}>{x}</a></li>)
+        var linksToSlides = this.state.links.map(x => <li key={x}><a href={this.props.folderName + '/' + x}>{x}</a>, <a href={this.props.folderName + '/' + x + '/index.pdf'}>PDF</a></li>)
 
         return(
             <div>
