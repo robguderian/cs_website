@@ -103,7 +103,15 @@ class LeftMenu extends Component {
         >
           COMP 3380
         </Menu.Item>
-
+        <Menu.Header>
+          Talks
+        </Menu.Header>
+        <Menu.Item
+          href="./talks/cybersec"
+          target="_blank"
+        >
+          Computer Security Demystified
+        </Menu.Item>
       </Menu>
     )
   }
