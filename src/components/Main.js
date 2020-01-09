@@ -12,6 +12,7 @@ import Comp1020 from '../components/ca/umanitoba/comp1020';
 import Comp3430 from '../components/ca/umanitoba/comp3430';
 import Comp2140 from '../components/ca/umanitoba/comp2140';
 import Comp3380 from '../components/ca/umanitoba/comp3380';
+import Comp3350 from '../components/ca/umanitoba/comp3350';
 
 let meImage = require('../images/me_square.png');
 
@@ -64,6 +65,7 @@ class LeftMenu extends Component {
         <Menu.Header>
           Current courses
         </Menu.Header>
+        
         <Menu.Item
           name='COMP 1020'
           active={activeItem === '1020_2018'}
@@ -72,13 +74,12 @@ class LeftMenu extends Component {
          COMP 1020
         </Menu.Item>
         <Menu.Item
-          name='COMP 3430'
-          active={activeItem === '3430_2018'}
+          name='COMP 3350'
+          active={activeItem === '3350_2018'}
           onClick={this.handleItemClick}
         >
-         COMP 3430
+          COMP 3350
         </Menu.Item>
-
         <Menu.Header>
           Previous courses
         </Menu.Header>
@@ -89,6 +90,8 @@ class LeftMenu extends Component {
         >
           COMP 1012
         </Menu.Item>
+        
+        
         <Menu.Item
           name='COMP 2140'
           active={activeItem === '2140_2018'}
@@ -96,6 +99,14 @@ class LeftMenu extends Component {
         >
           COMP 2140
         </Menu.Item>
+        <Menu.Item
+          name='COMP 3430'
+          active={activeItem === '3430_2018'}
+          onClick={this.handleItemClick}
+        >
+         COMP 3430
+        </Menu.Item>
+        
         <Menu.Item
           name='COMP 3380'
           active={activeItem === '3380_2018'}
@@ -150,6 +161,9 @@ class AppComponent extends React.Component {
     }
     else if (this.state.showpage == 'COMP 2140') {
       page = <Comp2140 />
+    }
+    else if (this.state.showpage == 'COMP 3350') {
+      page = <Comp3350 />
     }
     //<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
     return (

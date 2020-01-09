@@ -18,7 +18,7 @@ class About extends Component {
                 open-source internet-connected tchotchkes.</p>
 
                 <h2>Contact</h2>
-                In order of the best ways to get a hold of me:
+                The best ways to get a hold of me, in order:
                 <ul>
                     <li>Email: robg@cs.umanitoba.ca or robert.guderian@umanitoba.ca</li>
                     <li>Office: E2-405</li>
@@ -44,11 +44,11 @@ class About extends Component {
 
                     <Table.Body>
                         <Table.Row>
-                            <Table.Cell>1-2 pm</Table.Cell>
+                            <Table.Cell>1:00-2:00 pm</Table.Cell>
                             <Table.Cell></Table.Cell>
-                            <Table.Cell>1-2 pm</Table.Cell>
+                            <Table.Cell>1:00-2:00 pm</Table.Cell>
                             <Table.Cell>Open door</Table.Cell>
-                            <Table.Cell>1-2 pm</Table.Cell>
+                            <Table.Cell>1:00-2:00 pm</Table.Cell>
                         </Table.Row>
                     </Table.Body>
                 </Table>
