@@ -30,7 +30,7 @@ class About extends Component {
                 <p>Office hours are times I am guaranteed to be in my office. I am often in my office with the door open
                 outside of these hours, and you are welcome to come and see if I am available.</p>
                 <p>I am also available outside of the office hours by appointment. Email me, or talk to me in class
-                   if you'd like to set up an appointment.</p>
+                   if you'd like to set up an appointment. Office hours currently being held in <a href="https://gather.town/app/7ehBFug6hi2atjzy/My%20Home%20Space">Gather</a></p>
                 <Table className="tableBorder">
                     <Table.Header>
                     <Table.Row>
@@ -44,11 +44,11 @@ class About extends Component {
 
                     <Table.Body>
                         <Table.Row>
-                            <Table.Cell>1:00-2:00 pm</Table.Cell>
                             <Table.Cell></Table.Cell>
-                            <Table.Cell>1:00-2:00 pm</Table.Cell>
-                            <Table.Cell>Open door</Table.Cell>
-                            <Table.Cell>1:00-2:00 pm</Table.Cell>
+                            <Table.Cell>10:00-11:00am</Table.Cell>
+                            <Table.Cell></Table.Cell>
+                            <Table.Cell>10:00-11:00am</Table.Cell>
+                            <Table.Cell></Table.Cell>
                         </Table.Row>
                     </Table.Body>
                 </Table>
